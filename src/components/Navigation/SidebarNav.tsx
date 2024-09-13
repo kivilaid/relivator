@@ -53,31 +53,31 @@ export function SidebarNav({ className }: SidebarNavProps) {
     {
       title: "Stores",
       icon: "stores",
-      disabled: true,
+      disabled: false,
       href: "/dashboard/stores",
     },
     {
       title: "Purchases",
       icon: "purchases",
-      disabled: true,
+      disabled: false,
       href: "/dashboard/purchases",
     },
     {
       title: "Products",
       icon: "products",
-      disabled: true,
+      disabled: false,
       href: "/dashboard",
     },
     {
       title: "Analytics",
       icon: "analytics",
-      disabled: true,
+      disabled: false,
       href: "/dashboard",
     },
     {
       title: "Customers",
       icon: "customers",
-      disabled: true,
+      disabled: false,
       href: "/dashboard",
     },
     {
@@ -89,7 +89,7 @@ export function SidebarNav({ className }: SidebarNavProps) {
     {
       title: "Account",
       icon: "account",
-      disabled: true,
+      disabled: false,
       href: "/dashboard/account",
     },
   ];
@@ -98,13 +98,13 @@ export function SidebarNav({ className }: SidebarNavProps) {
     ? {
         title: "My Plan",
         icon: "myplan",
-        disabled: true,
+        disabled: false,
         href: "/dashboard/billing",
       }
     : {
         title: "Upgrade",
         icon: "upgrade",
-        disabled: true,
+       disabled: false,
         href: "/dashboard/billing",
       };
 
